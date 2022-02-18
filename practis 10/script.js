@@ -9,3 +9,5 @@ console.log(fistName);
 console.log(fistName);
 let Kashiif = 'java';
 console.log(Kashiif);
+let firstname = 'jona';
+console.log(firstname);
