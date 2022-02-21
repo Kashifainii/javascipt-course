@@ -47,5 +47,8 @@ console.log(lastname);
 const currentyear = 2022;
 const agekashif = currentyear - 1993;
 const ageejaz = currentyear - 1975;
-console.log(agekashif, ageejaz);
+console.log(agekashif * 3, ageejaz / 8, 2 ** 3);
+const mirstName = 'kashif Ghani';
+const lastName = 'the brand of mumbae';
+console.log(mirstName + lastName);
 
