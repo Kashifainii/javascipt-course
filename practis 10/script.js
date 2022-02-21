@@ -28,7 +28,14 @@ let age = '45';
 console.log(age);
 age = '55';
 console.log(age, "this is muted variable");
-const age = '45';
+/*const age = '45';
 console.log(age);
 age = '55';
-console.log(age, "this is immuted variable");
+console.log(age, "this is immuted variable");*/
+const powe = 'kashif';
+"constant variable must b intilized and nver b empty";
+var job = 'my firt job is in ptcl';
+console.log(job);
+job = 'i m a good student';
+console.log(job, "(this is also called muted avriable)");
+
