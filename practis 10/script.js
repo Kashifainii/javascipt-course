@@ -43,11 +43,9 @@ console.log(lastname);
 lastname = 'this my computer';
 console.log(lastname);
 
-const agekashif = 2022 - 1993;
-const ageejaz = 2022 - 1975;
-console.log(agekashif, ageejaz);
-const now = 2022;
-const agekashif = now - 1993;
-const ageejaz = now - 1975;
+
+const currentyear = 2022;
+const agekashif = currentyear - 1993;
+const ageejaz = currentyear - 1975;
 console.log(agekashif, ageejaz);
 
