@@ -1,5 +1,5 @@
 let kashif = 'hello word';
-if (kashif == 'hello word') alert('pakistan zinda bad')
+
 
 console.log(40 + 80 - 10);// console.log('kashif');
 // console.log(40);
@@ -20,3 +20,7 @@ console.log(typeof 3);
 console.log(typeof 3.1111);
 console.log(typeof kashif);
 firstName = "jobisgood";
+let student = 'javascript';
+console.log(student);
+student = 'teacher!';
+console.log(student);
