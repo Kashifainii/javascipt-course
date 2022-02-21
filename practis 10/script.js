@@ -38,4 +38,9 @@ var job = 'my firt job is in ptcl';
 console.log(job);
 job = 'i m a good student';
 console.log(job, "(this is also called muted avriable)");
+lastname = 'abdull rasheed';
+console.log(lastname);
+lastname = 'this my computer';
+console.log(lastname);
+
 
