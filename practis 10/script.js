@@ -43,7 +43,7 @@ console.log(lastname);
 lastname = 'this my computer';
 console.log(lastname);
 
-
+//mathmatical opraters 
 const currentyear = 2022;
 const agekashif = currentyear - 1993;
 const ageejaz = currentyear - 1975;
@@ -51,6 +51,7 @@ console.log(agekashif * 3, ageejaz / 8, 2 ** 3);
 const mirstName = 'kashif Ghani';
 const lastName = 'the brand of mumbae';
 console.log(mirstName + '+' + lastName);
+// asssignment operatrs 
 let x = 10 + 5;
 console.log('x=' + x);
 let y = 10 + 5;
@@ -62,6 +63,7 @@ console.log('z=' + z);
 let a = 10 + 5;
 a++;
 console.log('a=' + a);
-
-
-
+// compersion oopraters (<is greater then , >is less then ,  <= is greter then and equal to,   >= less then and equal to )
+console.log(agekashif > ageejaz);
+console.log(agekashif < ageejaz);
+console.log(currentyear - 1993 > currentyear - 1975, 'in this line we explain that mathmatical opraters work before the compersion opreatrs');
