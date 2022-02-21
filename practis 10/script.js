@@ -50,5 +50,18 @@ const ageejaz = currentyear - 1975;
 console.log(agekashif * 3, ageejaz / 8, 2 ** 3);
 const mirstName = 'kashif Ghani';
 const lastName = 'the brand of mumbae';
-console.log(mirstName + lastName);
+console.log(mirstName + '+' + lastName);
+let x = 10 + 5;
+console.log('x=' + x);
+let y = 10 + 5;
+y += 10;
+console.log('y=' + y);
+let z = 20 + 5;
+z *= 10;
+console.log('z=' + z);
+let a = 10 + 5;
+a++;
+console.log('a=' + a);
+
+
 
