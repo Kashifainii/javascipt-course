@@ -1,4 +1,4 @@
-let kashif = 'hello word';
+/*let kashif = 'hello word';
 
 
 console.log(40 + 80 - 10);// console.log('kashif');
@@ -32,7 +32,7 @@ console.log(age, "this is muted variable");
 console.log(age);
 age = '55';
 console.log(age, "this is immuted variable");*/
-const powe = 'kashif';
+/*const powe = 'kashif';
 "constant variable must b intilized and nver b empty";
 var job = 'my firt job is in ptcl';
 console.log(job);
@@ -66,4 +66,15 @@ console.log('a=' + a);
 // compersion oopraters (<is greater then , >is less then ,  <= is greter then and equal to,   >= less then and equal to )
 console.log(agekashif > ageejaz);
 console.log(agekashif < ageejaz);
-console.log(currentyear - 1993 > currentyear - 1975, 'in this line we explain that mathmatical opraters work before the compersion opreatrs');
+console.log(currentyear - 1993 > currentyear - 1975, 'in this line we explain that mathmatical opraters work before the compersion opreatrs');*/
+//opraters predence 
+const currentyear = 2022;
+const agekashif = currentyear - 1993;
+const ageejaz = currentyear - 1975;
+console.log(currentyear - 1993 > currentyear - 1975);
+
+let x, y;
+x = y = 25 - 10 - 5;
+console.log(x, y, 'in this line x = y and the solve the minus has fist bcz high precdene');
+const avreg = agekashif + ageejaz / 2;
+console.log(agekashif, ageejaz, avreg, 'in this line fiest solve the dive and then add both age ');
