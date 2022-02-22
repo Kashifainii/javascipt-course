@@ -76,5 +76,15 @@ console.log(currentyear - 1993 > currentyear - 1975);
 let x, y;
 x = y = 25 - 10 - 5;
 console.log(x, y, 'in this line x = y and the solve the minus has fist bcz high precdene');
-const avreg = agekashif + ageejaz / 2;
-console.log(agekashif, ageejaz, avreg, 'in this line fiest solve the dive and then add both age ');
+//const avreg = agekashif + ageejaz / 2;
+//console.log(agekashif, ageejaz, avreg, 'in this line fiest solve the dive and then add both age ');
+const avreg = (agekashif + ageejaz) / 2
+console.log(agekashif, ageejaz, avreg, 'in this line prenthises first solve the dive and then add both age ');
+const masskahif = 78;
+const hightkashif = 1.69;
+const masshoukat = 92;
+const hightshoukat = 1.95;
+const BMIkashif = masskahif / hightkashif ** 2
+const BMIshoukat = masshoukat / (hightshoukat * hightshoukat);
+const markBMIHigher = masshoukat < masskahif;
+console.log(BMIkashif, BMIshoukat, markBMIHigher, 'in that we mark hiegr masss');
