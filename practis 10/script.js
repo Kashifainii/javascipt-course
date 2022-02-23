@@ -100,7 +100,7 @@ const currentyear = 2022;
 const job = 'develpers';
 const kashif = " i'm" + " " + firstName + "  " + lastName + "and my age is " + (currentyear - birthYear) + ".My job is web " + job;
 console.log(kashif, "(this is long method and error may b expected)");
-const kashiNew = `i'm ${firstName} ${lastName} ${birthYear} ${currentyear} ${job}`;
+const kashiNew = `i'm ${firstName} ${lastName} ${birthYear} ${currentyear}, " presnt age ${currentyear - birthYear}", and my job is  ${job}`;
 console.log(kashiNew, "(this is the method in which we use every varible call and show the out put)");
 const kashifNew = ` ${kashif}`;
 console.log(kashifNew, "(this is short method to call and manage long sring in one step)");
