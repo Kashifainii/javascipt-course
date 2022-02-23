@@ -43,7 +43,7 @@ console.log(lastname);
 lastname = 'this my computer';
 console.log(lastname);
 
-//mathmatical opraters 
+//mathmatical opraters
 const currentyear = 2022;
 const agekashif = currentyear - 1993;
 const ageejaz = currentyear - 1975;
@@ -51,7 +51,7 @@ console.log(agekashif * 3, ageejaz / 8, 2 ** 3);
 const mirstName = 'kashif Ghani';
 const lastName = 'the brand of mumbae';
 console.log(mirstName + '+' + lastName);
-// asssignment operatrs 
+// asssignment operatrs
 let x = 10 + 5;
 console.log('x=' + x);
 let y = 10 + 5;
@@ -67,7 +67,7 @@ console.log('a=' + a);
 console.log(agekashif > ageejaz);
 console.log(agekashif < ageejaz);
 console.log(currentyear - 1993 > currentyear - 1975, 'in this line we explain that mathmatical opraters work before the compersion opreatrs');*/
-//opraters predence 
+//opraters predence
 //const currentyear = 2022;
 //const agekashif = currentyear - 1993;
 //const ageejaz = currentyear - 1975;
@@ -93,7 +93,7 @@ const BMIshoukat = masshoukat / (hightshoukat * hightshoukat);
 const markBMIHigher = masshoukat < masskahif;
 console.log(BMIkashif, BMIshoukat, markBMIHigher, 'in that we mark hiegr masss');
 */
-const firstName = 'kashif';
+/*const firstName = 'kashif';
 const lastName = 'abdul rasheed';
 const birthYear = 1993;
 const currentyear = 2022;
@@ -107,4 +107,19 @@ console.log(kashifNew, "(this is short method to call and manage long sring in o
 console.log(`this is also use srtring mehod to  show on code `)
 console.log('kashif is a nice and cute man \n\ this is very happy mooment ', "(multple linestring with new line manullay)");
 console.log(`kashif is a nice and cute man 
- this is very happy mooment `, "(this is auto line brake code)"); 
+ this is very happy mooment `, "(this is auto line brake code)"); */
+const age = 20;
+const kashifage = age >= 18;
+if (kashifage) {
+    console.log('kashif is illigible for driving the car')
+}
+const age = 10;
+
+if (age >= 18) {
+    console.log('kashif is illigible for driving the car');
+}
+else {
+    const remaingYear = 18 - age;
+    console.log(`kashif is not illigible for driving licnc ${remaingYear}year:`);
+}
+
