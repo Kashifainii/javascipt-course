@@ -80,10 +80,14 @@ console.log(x, y, 'in this line x = y and the solve the minus has fist bcz high 
 //console.log(agekashif, ageejaz, avreg, 'in this line fiest solve the dive and then add both age ');
 const avreg = (agekashif + ageejaz) / 2
 console.log(agekashif, ageejaz, avreg, 'in this line prenthises first solve the dive and then add both age ');
-const masskahif = 78;
-const hightkashif = 1.69;
-const masshoukat = 92;
-const hightshoukat = 1.95;
+//const masskahif = 78;
+//const hightkashif = 1.69;
+//const masshoukat = 92;
+//const hightshoukat = 1.95;
+const masskahif = 95;
+const hightkashif = 1.88;
+const masshoukat = 85;
+const hightshoukat = 1.76;
 const BMIkashif = masskahif / hightkashif ** 2
 const BMIshoukat = masshoukat / (hightshoukat * hightshoukat);
 const markBMIHigher = masshoukat < masskahif;
