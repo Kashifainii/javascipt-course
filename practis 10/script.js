@@ -104,4 +104,7 @@ const kashiNew = `i'm ${firstName} ${lastName} ${birthYear} ${currentyear}, " pr
 console.log(kashiNew, "(this is the method in which we use every varible call and show the out put)");
 const kashifNew = ` ${kashif}`;
 console.log(kashifNew, "(this is short method to call and manage long sring in one step)");
-
+console.log(`this is also use srtring mehod to  show on code `)
+console.log('kashif is a nice and cute man \n\ this is very happy mooment ', "(multple linestring with new line manullay)");
+console.log(`kashif is a nice and cute man 
+ this is very happy mooment `, "(this is auto line brake code)"); 
