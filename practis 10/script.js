@@ -108,18 +108,62 @@ console.log(`this is also use srtring mehod to  show on code `)
 console.log('kashif is a nice and cute man \n\ this is very happy mooment ', "(multple linestring with new line manullay)");
 console.log(`kashif is a nice and cute man 
  this is very happy mooment `, "(this is auto line brake code)"); */
-const age = 20;
+/*const age = 20;
 const kashifage = age >= 18;
 if (kashifage) {
     console.log('kashif is illigible for driving the car')
-}
-const age = 10;
+}*/
+const agee = 10;
 
-if (age >= 18) {
+/*if (agee >= 18) {
     console.log('kashif is illigible for driving the car');
 }
 else {
-    const remaingYear = 18 - age;
-    console.log(`kashif is not illigible for driving licnc ${remaingYear}year:`);
+    const remaingYear = 18 - agee;
+    console.log(`kashif is not illigible for driving licnc ${remaingYear} year:`);
 }
+*/
+/*const birth = 1992
+if (birth <= 2020) {
+    let century = 20
 
+}
+else {
+    let century = 21
+}
+console.log(century);
+*/
+const birth = 1072
+let century;
+if (birth <= 2000) {
+    century = 21
+
+}
+if (birth >= 2020) {
+    century = 21
+}
+if (birth <= 1999) {
+    console.log('javascript');
+    century = 20;
+
+}
+console.log(century);
+
+/*const masskahif = 95;
+const hightkashif = 1.88;
+const masshoukat = 85;
+const hightshoukat = 1.76;*/
+const masskahif = 78;
+const hightkashif = 1.69;
+const masshoukat = 92;
+const hightshoukat = 1.95;
+const BMIkashif = masskahif / hightkashif ** 2
+const BMIshoukat = masshoukat / (hightshoukat * hightshoukat);
+const markBMIHigher = masshoukat > masskahif;
+console.log(BMIshoukat, BMIkashif);
+//console.log(BMIkashif, BMIshoukat, markBMIHigher, 'in that we mark hiegr masss');
+if (masshoukat > masskahif) {
+    console.log(`the BMI of shoukat is (${BMIshoukat})is higher is then the (${BMIkashif})`);
+} else {
+    console.log('in that we mark lesser  masss')
+}
