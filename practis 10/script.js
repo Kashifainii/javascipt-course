@@ -162,8 +162,26 @@ const BMIshoukat = masshoukat / (hightshoukat * hightshoukat);
 const markBMIHigher = masshoukat > masskahif;
 console.log(BMIshoukat, BMIkashif);
 //console.log(BMIkashif, BMIshoukat, markBMIHigher, 'in that we mark hiegr masss');
-if (masshoukat > masskahif) {
-    console.log(`the BMI of shoukat is (${BMIshoukat})is higher is then the (${BMIkashif})`);
-} else {
-    console.log('in that we mark lesser  masss')
-}
+//if (masshoukat > masskahif) {
+//  console.log(`the BMI of shoukat is (${BMIshoukat})is higher is then the (${BMIkashif})`);
+//} else {
+//  console.log('in that we mark lesser  masss')
+
+//}
+"now today we do converstion of data type"
+//const presntAge = 2093;
+//console.log(presntAge + 18); 
+const presntAge = 2003;
+const kashif = 1234567890;
+console.log(Number(presntAge), presntAge); "in thar ws convet a sring into number "
+console.log(presntAge + 18);
+console.log(Number(presntAge), presntAge); "in thar ws convet a sring into number "
+console.log(Number(presntAge) + 18);
+console.log(Number(kashif));
+console.log(Number('kashif'), 'in this we use a sting which canot b chnage in number becuse yhis is in single qote hmmm');
+console.log(typeof NaN)
+console.log(String(23), 23, '(in that 23 between pranthis is a string and out of prenthis 23 is a number)');
+// coreation
+console.log('i m kashif rasheed  and i m just', + 16 + ' years old', '(in this + sign to use to wright  differnt sting and + sign to use q number in to string )');
+console.log('i m kashif rasheed  and i m just', + '16' + ' years old', '(in this + sign to use to wright  differnt sting and + sign to use q number in to string )');
+console.log('i m kashif rasheed  and i m just', + String(16) + ' years old', '(in this + sign to use to wright  differnt sting and + sign to use q number in to string )');
