@@ -250,7 +250,7 @@ if (favert == 23) {
 }
 
 if (favert === 23) {
-    console.log("this isa a cold number", "in this we check === sricke oprater not working bcoze we use == on declation of variable")
+    console.log("yhis a also coll number ", "this isa a cold number", "in this we check === sricke oprater not working bcoze we use == on declation of variable")
 } else if (favert === 7) {
     console.log("7 is a licky number")
 }
@@ -261,5 +261,8 @@ else if (favert === 10) {
     console.log("10 is a licky number")
 }
 else {
-    console.log("the number is not 23 and nor 7 ");
+    console.log("the number is not 23 and nor 7 nor 9 nor 10 ");
 }
+if (favert !== 23) {
+    console.log("why numer is not 23 ")
+} 
