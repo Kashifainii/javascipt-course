@@ -254,6 +254,12 @@ if (favert === 23) {
 } else if (favert === 7) {
     console.log("7 is a licky number")
 }
+else if (favert === 9) {
+    console.log("9 is a licky number")
+}
+else if (favert === 10) {
+    console.log("10 is a licky number")
+}
 else {
     console.log("the number is not 23 and nor 7 ");
 }
