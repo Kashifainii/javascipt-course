@@ -242,7 +242,7 @@ if (
 ) console.log('this is the stricket oprater');
 
 if (age == 18) console.log("this is the losss opreater ")
-const favert = prompt("what is ur favert number ");
+const favert = Number(prompt("what is ur favert number "));
 console.log(favert);
 console.log(typeof favert);
 if (favert == 23) {
@@ -251,4 +251,9 @@ if (favert == 23) {
 
 if (favert === 23) {
     console.log("this isa a cold number", "in this we check === sricke oprater not working bcoze we use == on declation of variable")
+} else if (favert === 7) {
+    console.log("7 is a licky number")
+}
+else {
+    console.log("the number is not 23 and nor 7 ");
 }
