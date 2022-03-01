@@ -168,9 +168,9 @@ console.log(BMIshoukat, BMIkashif);
 //  console.log('in that we mark lesser  masss')
 
 //}
-"now today we do converstion of data type"
+//"now today we do converstion of data type"
 //const presntAge = 2093;
-//console.log(presntAge + 18); 
+//console.log(presntAge + 18);
 /*const presntAge = 2003;
 const kashif = 1234567890;
 console.log(Number(presntAge), presntAge); "in thar ws convet a sring into number "
@@ -186,10 +186,52 @@ console.log('i m kashif rasheed  and i m just', + 16 + ' years old', '(in this +
 console.log('i m kashif rasheed  and i m just', + '16' + ' years old', '(in this + sign to use to wright  differnt sting and + sign to use q number in to string )');
 console.log('i m kashif rasheed  and i m just', + String(16) + ' years old', '(in this + sign to use to wright  differnt sting and + sign to use q number in to string )');
 */
-console.log('23' - ' 10' - 3, 'in this - oprater converter string in to nmber and retrn numbet');
+/*console.log('23' - ' 10' - 3, 'in this - oprater converter string in to nmber and retrn numbet');
 console.log('23' + '10' + 3, 'in this + oprater converter number into sting in to nmber and retrn sring together ');
 console.log('23' * '2', 'in this * oprater converter string in to number   and retrn 46 together ');
 console.log('23' / '2', 'in this * oprater converter string in to number   and retrn 46 together ');
 let n = '1' + 1;
 n = n - 1;
-console.log(n, ' (in this we made a varable and pass sting and number and + sign use this in srting ad tohgeter and retrn - 1 = 10 ans) ');
+console.log(n, ' (in this we made a varable and pass sting and number and + sign use this in srting ad tohgeter and retrn - 1 = 10 ans) ');*/
+// 5 falsy values in th java script like 0 , nan , null , undefind and '';
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('jonas'));
+console.log(Boolean({}));
+console.log(Boolean(NaN));
+const money = 'jonas';
+jonas = 10 + 20;
+if (money) {
+    console.log('dont spent it at all');
+    console.log(jonas)
+} else {
+    console.log("you should get a job");
+}
+/*
+let hieght;
+if (hieght) {
+    console.log("hy plzzzzz defibe the varable");
+
+} else {
+    console.log(
+        "varalble not define well"
+    )
+}*/
+/*let hieght = 0;
+if (hieght) {
+    console.log("hy plzzzzz defibe the varable", "(in that we lern falsy value nad trutyh value weel falsy value have just five value) ");
+
+} else {
+    console.log(
+        "varalble not define well", "(in that we lern falsy value nad trutyh value weel falsy value have just five value )"
+    )
+}*/
+let hieght = 10;
+if (hieght) {
+    console.log("we defibe the varable", "(in that we lern falsy value nad trutyh value weel falsy value have just five value) ");
+
+} else {
+    console.log(
+        "varalble not define well", "(in that we lern falsy value nad trutyh value weel falsy value have just five value )"
+    )
+}
