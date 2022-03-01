@@ -226,12 +226,29 @@ if (hieght) {
         "varalble not define well", "(in that we lern falsy value nad trutyh value weel falsy value have just five value )"
     )
 }*/
-let hieght = 10;
-if (hieght) {
-    console.log("we defibe the varable", "(in that we lern falsy value nad trutyh value weel falsy value have just five value) ");
+//let hieght = 10;
+//if (hieght) {
+//  console.log("we defibe the varable", "(in that we lern falsy value nad trutyh value weel falsy value have just five value) ");
 
-} else {
-    console.log(
-        "varalble not define well", "(in that we lern falsy value nad trutyh value weel falsy value have just five value )"
-    )
+//} else {
+//  console.log(
+//    "varalble not define well", "(in that we lern falsy value nad trutyh value weel falsy value have just five value )"
+//)
+//}
+
+const age = 18;
+if (
+    age === 18
+) console.log('this is the stricket oprater');
+
+if (age == 18) console.log("this is the losss opreater ")
+const favert = prompt("what is ur favert number ");
+console.log(favert);
+console.log(typeof favert);
+if (favert == 23) {
+    console.log("this ia etring and loss number oprater ")
+}
+
+if (favert === 23) {
+    console.log("this isa a cold number", "in this we check === sricke oprater not working bcoze we use == on declation of variable")
 }
