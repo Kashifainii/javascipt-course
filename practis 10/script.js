@@ -223,6 +223,7 @@ if (hieght) {
 
 } else {
     console.log(
+        
         "varalble not define well", "(in that we lern falsy value nad trutyh value weel falsy value have just five value )"
     )
 }*/
@@ -236,7 +237,7 @@ if (hieght) {
 //)
 //}
 
-const age = 18;
+/*const age = 18;
 if (
     age === 18
 ) console.log('this is the stricket oprater');
@@ -265,4 +266,88 @@ else {
 }
 if (favert !== 23) {
     console.log("why numer is not 23 ")
+}*/
+// coding challange 3 
+// if team A more
+/*const teamA = (96 + 108 + 89) / 3;
+const teamB = (88 + 91 + 110) / 3;
+console.log(teamA, teamB);
+if (teamA > teamB) {
+    console.log('Team a will wins the trophhy')
+} else if (teamB > teamA) {
+    console.log('Team B will wins the trophhy')
+} else if (teamB === teamA) {
+    console.log('both will win  the trophy');
+}*/
+// if team b more
+/*const teamA = (96 + 108 + 89) / 3;
+const teamB = (88 + 191 + 110) / 3;
+console.log(teamA, teamB);
+if (teamA > teamB) {
+    console.log('Team a will wins the trophhy')
+} else if (teamB > teamA) {
+    console.log('Team B will wins the trophhy')
+} else if (teamB === teamA) {
+    console.log('both will win  the trophy');
+}*/
+// both have same points 
+/*const teamA = (96 + 108 + 89) / 3;
+const teamB = (96 + 108 + 89) / 3;
+console.log(teamA, teamB);
+if (teamA > teamB) {
+    console.log('Team a will wins the trophhy')
+} else if (teamB > teamA) {
+    console.log('Team B will wins the trophhy')
+} else if (teamB === teamA) {
+    console.log('both will win  the trophy');
+}*/
+
+// bonas 1
+const teamA = (97 + 112 + 101) / 3;
+const teamB = (109 + 95 + 123) / 3;
+console.log(teamA, teamB);
+if (teamA > teamB && teamA >= 100) {
+    console.log('Team a will wins the trophhy', '(  Also in this who team will have more then 100 score then show) ')
+} else if (teamB > teamA && teamB >= 100) {
+    console.log('Team B will wins the trophhy', '(  Also in this who team will have more then 100 score then show) ')
+} else if (teamB === teamA) {
+    console.log('both will win  the trophy', '(  Also in this who team will have equally  100 score then show) ');
+}
+
+// bonas 2
+/*const teamA = (97 + 112 + 101) / 3;
+const teamB = (109 + 95 + 106) / 3;
+console.log(teamA, teamB);
+if (teamA > teamB && teamA >= 100) {
+    console.log('Team a will wins the trophhy')
+} else if (teamB > teamA && teamB >= 100) {
+    console.log('Team B will wins the trophhy')
+} else if (teamB === teamA) {
+    console.log('both will win  the trophy');
+}
+// more 100 condtion
+const teamA = (97 + 112 + 101) / 3;
+const teamB = (109 + 95 + 106) / 3;
+console.log(teamA, teamB);
+if (teamA > teamB && teamA >= 100) {
+    console.log('Team a will wins the trophhy')
+} else if (teamB > teamA && teamB >= 100) {
+    console.log('Team B will wins the trophhy')
+} else if (teamB === teamA && teamA >= 100 && teamB >= 100) {
+    console.log('both will win  the trophy');
+} else {
+    console.log('No team will be win the trophy')
 } 
+//below 100 
+const teamA = (97 + 112 + 81) / 3;
+const teamB = (109 + 95 + 86) / 3;
+console.log(teamA, teamB);
+if (teamA > teamB && teamA >= 100) {
+    console.log('Team a will wins the trophhy')
+} else if (teamB > teamA && teamB >= 100) {
+    console.log('Team B will wins the trophhy')
+} else if (teamB === teamA && teamA >= 100 && teamB >= 100) {
+    console.log('both will win  the trophy');
+} else {
+    console.log('No team will be win the trophy')
+}*/
