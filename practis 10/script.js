@@ -351,3 +351,53 @@ if (teamA > teamB && teamA >= 100) {
 } else {
     console.log('No team will be win the trophy')
 }*/
+// Switch statment:
+let day = Number(prompt('enter the walid day'));
+//day = String(prompt('please enter the a valid string'));
+switch (day) {
+
+    case 0:
+    case 100:
+        console.log('today is monday ');
+        document.write('today is monday');
+        break
+    case 1:
+    case 101:
+        console.log('today is tuesday ');
+        document.write('today is tuesday');
+
+        break
+    case 2:
+    case 102:
+        console.log('today is wednesday ');
+        document.write('today is wedenday');
+        break
+    case 3:
+    case 103:
+        console.log('today is thursday ');
+        document.write('today is thrusday');
+        break
+    case 4:
+    case 104:
+        console.log('today is firday ');
+        document.write('today is friday');
+        break
+    case 5:
+    case 105:
+        console.log('today is saturday ');
+        document.write('today is saturday');
+        break
+    case 6:
+    case 106:
+        console.log('today is sunday ');
+        document.write('today is sunday');
+        break
+    case 7:
+    case 107:
+        console.log('God made all the days of life  ');
+        document.write('God made all the days of life  ');
+        break
+    default:
+        console.log('enter the valid day')
+
+}
