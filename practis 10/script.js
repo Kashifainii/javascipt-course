@@ -355,9 +355,10 @@ if (teamA > teamB && teamA >= 100) {
 let day = Number(prompt('enter the walid day'));
 //day = String(prompt('please enter the a valid string'));
 switch (day) {
-
+    // day === numbber 
     case 0:
     case 100:
+
         console.log('today is monday ');
         document.write('today is monday');
         break
@@ -401,3 +402,11 @@ switch (day) {
         console.log('enter the valid day')
 
 }
+//2 + 3 this is expression
+//expression alwys retun a value and expression;
+// but statment retrun a value and expresston according to program instructions
+// conditional oprater and trunery oprater 
+var age = 23
+age <= 18 ? console.log('kashif is under age ') : console.log('kashif has more age then 18');
+const kashif = age <= 18 ? 'elder' : 'younger';
+console.log(kashif);
