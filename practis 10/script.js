@@ -124,6 +124,11 @@ else {
 }
 */
 /*const birth = 1992
+
+
+
+
+
 if (birth <= 2020) {
     let century = 20
 
