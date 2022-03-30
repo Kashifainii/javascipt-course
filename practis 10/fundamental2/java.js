@@ -41,6 +41,7 @@ const fruitsProcesser = function (apple, mango) {
     const mangoPieces = cutPieces(mango);
     const juice = `juices with ${applePieces} and juices with ${mangoPieces}`;
     return juice;
+
 };
 console.log(fruitsProcesser(2, 8));
-document.write('juice');
+document.write(fruitsProcesser(3, 9));
