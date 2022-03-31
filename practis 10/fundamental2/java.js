@@ -45,3 +45,16 @@ const fruitsProcesser = function (apple, mango) {
 };
 console.log(fruitsProcesser(2, 8));
 document.write(fruitsProcesser(3, 9));
+// reviewing function
+const calcbill = function (bill) {
+    return 500 - bill;
+
+}
+const cutConection = function (bill, user) {
+    const amount = calcbill(bill);
+    const retiedConeection = 600 - bill;
+    return retiedConeection;
+}
+console.log(cutConection(200, 'kashif'));
+console.log(cutConection(100, 'hafiz'));
+
