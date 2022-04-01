@@ -1,4 +1,4 @@
-/*const friend1 = 'kashif ';
+const friend1 = 'kashif ';
 const friend2 = 'shoukat ';
 const friend3 = 'adeel ';
 const friend4 = 'ayyaz ';
@@ -30,13 +30,13 @@ const age4 = calcAge(year[year.length - 1]);
 console.log(age1, age2, age3, age4);
 
 const ages = [calcAge(year[1]), calcAge(year[2]), calcAge(year[3]), calcAge(year[year.length - 1])];
-console.log(ages);*/
+console.log(ages);* /
 ///arraye oprater 
-//const friend = ['kashif ', 'shoukat', 'adeel', 'ayyaz'];
-//friend.push('saqib');
-//console.log(friend);
-/*const friend = ['kashif ', 'shoukat', 'adeel', 'ayyaz'];
-//friend.push('saqib');
+const friend = ['kashif ', 'shoukat', 'adeel', 'ayyaz'];
+friend.push('saqib');
+console.log(friend);
+const friend = ['kashif ', 'shoukat', 'adeel', 'ayyaz'];
+friend.push('saqib');
 friend.unshift('abdullah');//this method include index in fristly
 friend.pop();// in this we remove last elemnet from array
 friend.shift();
@@ -54,7 +54,7 @@ console.log(newlenth);
 console.log(popped);
 if (friend.includes('saqib')) {
     console.log('you are friends of kashif')
-}*/
+}
 // coding practise and challange
 const calcTip = function (bill) {
     return bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.20;
