@@ -154,12 +154,12 @@ for (let i = jhenArray.length - 1; i >= 0; i--) {
     console.log(i, jhenArray[i]);
 
 }
-for (job = 1; job < 4; job++) {
+for (job = 1; job <= 4; job++) {
     console.log(`.......statting job.........${job}`);// this loop exicute  one time and then nessted complete itration and then main lop is working once and vise versa
 
     // we use the nested loop in our program to check specfice itration or value of a thing /.
     for (let rep = 1; rep < 10; rep++) {
-        console.log(`lifiting weight is heavy😜 ${rep}`);
+        console.log(`job${job} lifiting weight is heavy😜 ${rep}`);
 
     }
 
