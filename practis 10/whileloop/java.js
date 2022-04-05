@@ -35,9 +35,10 @@ console.log(billArray, tips, totals);
 
 
 
+
 const calcAvrag = function (arr) {
     let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < arr.len, 7gth; i++) {
         //sum = sum + arr[i];
         sum += arr[i];
 
@@ -45,6 +46,6 @@ const calcAvrag = function (arr) {
     console.log(sum);
     return sum / arr.length
 }
-console.log(calcAvrag([2, 3, 7]));
+console.log(calcAvrag([2, 3]));
 console.log(calcAvrag(totals));
 console.log(calcAvrag(tips));
